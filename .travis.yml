@@ -1,5 +1,11 @@
 language: objective-c
 osx_image: xcode7.2
 xcode_workspace: TravisSample.xcworkspace
-xcode_sdk: iphonesimulator
 xcode_scheme: TravisSample
+env:
+  matrix:
+    - TEST_SDK=iphonesimulator7.1
+    - TEST_SDK=iphonesimulator8.1
+    - TEST_SDK=iphonesimulator9.1
+xcode_sdk: $TEST_SDK
+
