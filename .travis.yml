@@ -1,10 +1,1 @@
 language: objective-c
- 
-before_install:
-  - gem install cocoapods -r
-  - pod install
- 
-script:
-  - xctool -workspace TravisSample.xcworkspace -scheme TravisSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-  - xcodebuild -workspace TravisSample.xcworkspace -scheme TravisSample -destination 'platform=iOS Simulator,name=iPhone 6' test
- 
