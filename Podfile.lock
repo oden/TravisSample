@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - KIF (3.4.1):
+    - KIF/Core (= 3.4.1)
+  - KIF/Core (3.4.1)
+  - OCMock (3.2.2)
+  - OHHTTPStubs (4.8.0):
+    - OHHTTPStubs/Default (= 4.8.0)
+  - OHHTTPStubs/Core (4.8.0)
+  - OHHTTPStubs/Default (4.8.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.8.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.8.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.8.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - KIF
+  - OCMock
+  - OHHTTPStubs
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  KIF: 2275c6d59c77e5e56f660f006b99d73780130540
+  OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
+  OHHTTPStubs: b393565822317305b87a1440d4c7aff131679f66
+
+COCOAPODS: 0.39.0
