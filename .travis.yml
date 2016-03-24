@@ -1,3 +1,4 @@
 language: objective-c
 xcode_workspace: TravisSample.xcworkspace
+xcode_sdk: iphonesimulator
 xcode_scheme: TravisSample
